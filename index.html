@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zain | Backend &amp; Networking Developer</title>
+  <meta name="description" content="Portfolio of Zain, IT student focused on backend development, Linux and SDN.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="#top">Zain Ul Abad</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO / PERSONAL DETAILS -->
+  <section class="hero" id="top">
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1><br>builds backends<br>that talk to networks.</h1>
+        <p class="lead">
+          <!-- EDIT: your intro -->
+          IT student in Karachi working on backend systems, Linux and software-defined networking.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">See projects</a>
+          <a class="btn" href="cv.pdf" download>Download CV</a>
+        </div>
+      </div>
+      <div class="photo">
+        <!-- EDIT: put your picture in this folder and name it profile.jpg -->
+        <img src="P (2).jpg" alt="Photo of Zain" id="profilePic">
+        <span class="photo-fallback" id="photoFallback">Z</span>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- ABOUT / PERSONAL DETAILS -->
+    <section id="about">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <p>
+          <!-- EDIT: write a short bio -->
+         I am an IT student from Karachi, Pakistan. I have been doing programming for the past 2 years and have a strong interest in backend development, Linux, and software-defined networking. In the Past two years i have worked on tech stacks like C#, Node.js, Express.js, React.js, and SQL. I have also worked on networking topics like SDN, basic network architecture, and router and switch configuration. I am currently looking for internships and freelance work to further enhance my skills and gain practical experience in the field of IT.
+        </p>
+        <dl class="details">
+          <!-- EDIT: change or add details -->
+          <div><dt>Name</dt><dd>Zain Ul Abad</dd></div>
+          <div><dt>Location</dt><dd>Karachi, Pakistan</dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:zainabad27@gmail.com">zainabad27@gmail.com</a></dd></div>
+          <!-- <div><dt>Phone</dt><dd>+92 3363580957</dd></div> -->
+          <div><dt>WhatsApp</dt><dd>+968 96098150</dd></div>
+          <div><dt>Open to</dt><dd>Internships and freelance work</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- PROJECTS (filled by script.js) -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <!-- <h1>Coming Soon</h1> -->
+      <div class="grid" id="projectGrid"></div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <!-- EDIT: copy this block to add more -->
+        <article class="edu">
+          <h3>BS Information Technology</h3>
+          <p class="meta">Bahria University, Karachi</p>
+          <p class="meta">2023 to present</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <!-- EDIT: add or remove skills inside each list -->
+        <div>
+          <h3>Programming</h3>
+          <ul class="chips"><li>C#</li><li>Javascript</li><li>C++</li><li>SQL</li></ul>
+        </div>
+          <div>
+          <h3>FrameWorks</h3>
+          <ul class="chips"><li>ASP.NET</li><li>Node.js</li><li>Express.js</li><li>React.js</li></ul>
+        </div>
+        <div>
+          <h3>CCNA</h3>
+          <ul class="chips"><li>CCNA topics</li><li>SDN</li></li><li>Basic Network Architecture</li></li><li>Router and Switch Configuration</li></ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul class="chips"><li>Linux</li><li>Git</li><li>Databases</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Have a project or an opening? Get in touch.</p>
+      <div class="actions">
+        <!-- EDIT: replace with your real links -->
+        <a class="btn primary" href="mailto:zainabad27@gmail.com">Email me</a>
+        <a class="btn" href="https://github.com/zainabad27" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/zain-abad-67087a260" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Zain</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
